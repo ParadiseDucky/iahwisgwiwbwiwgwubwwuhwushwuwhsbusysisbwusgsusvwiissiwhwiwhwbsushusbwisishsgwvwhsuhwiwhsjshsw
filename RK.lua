@@ -8,14 +8,13 @@ local bin = creds:section("玩家信息",true)
     bin:Label("你的用户名:"..game.Players.LocalPlayer.Character.Name)
     bin:Label("你的注入器:"..identifyexecutor())
     
-    local bin = creds:section("信息",true)
-    bin:Label("官群?:")
-    bin:Label("作者:RK06")
-    bin:Label("半缝合免费脚本")
+    local bin = creds:section("作者信息",true)
+    bin:Label("官群rk:")
+    bin:Label("作者:rk是最强的")
+    bin:Label("该脚本完全免费")
     bin:Label("请不要倒卖")
-    bin:Label("持续云更")
-    bin:Label("提供源码")
-
+    bin:Label("半缝合")
+    
 local credits = creds:section("关闭",true)
 
 credits:Toggle("脚本框架变小一点", "", false, function(state)
@@ -35,8 +34,8 @@ local credits = creds:section("内容",true)
     loadstring(game:HttpGet("https://pastebin.com/raw/gqv7PXAa"))()
 end)
 
-    credits:Button("?",function()
-    
+    credits:Button("人物旋转",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 end)
 
     credits:Button("甩人",function()
